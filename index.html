@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Felipe Giannetti | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">Felipe Giannetti</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="pill small">Get in touch</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <p class="eyebrow">Cybersecurity • Student • Intern</p>
+        <h1>Get to know me!</h1>
+
+        <div class="hero-carousel" aria-label="About me carousel">
+          <button class="round-arrow hero-prev" aria-label="Previous slide">←</button>
+
+          <div class="hero-frame">
+            <article class="hero-slide is-active slide-one">
+              <div class="slide-overlay">
+                <span class="slide-number">01</span>
+                <div>
+                  <p class="slide-kicker">San Antonio, Texas</p>
+                  <h2>Cybersecurity student focused on defensive security.</h2>
+                </div>
+              </div>
+            </article>
+
+            <article class="hero-slide slide-two">
+              <div class="slide-overlay">
+                <span class="slide-number">02</span>
+                <div>
+                  <p class="slide-kicker">Hands-on learning</p>
+                  <h2>I build SOC labs, detection tools, and networking projects.</h2>
+                </div>
+              </div>
+            </article>
+
+            <article class="hero-slide slide-three">
+              <div class="slide-overlay">
+                <span class="slide-number">03</span>
+                <div>
+                  <p class="slide-kicker">Outside of tech</p>
+                  <h2>Football, travel, and constantly learning something new.</h2>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <button class="round-arrow hero-next" aria-label="Next slide">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="section-wrap">
+        <div class="section-heading-row">
+          <div>
+            <p class="eyebrow dark">Selected work</p>
+            <h2>Personal Projects</h2>
+          </div>
+          <p class="section-copy">A few projects that show how I approach networking, monitoring, detection, and practical cybersecurity.</p>
+        </div>
+
+        <div class="project-grid">
+          <a class="project-card" href="https://github.com/FelipeG72/network-dpi-sniffer" target="_blank" rel="noreferrer">
+            <div class="project-icon">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <div class="card-bottom">
+              <span class="project-index">01</span>
+              <h3>Network DPI Sniffer</h3>
+              <p>Python packet capture and protocol analysis with traffic inspection and payload checks.</p>
+              <span class="project-link">View project ↗</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="https://github.com/FelipeG72/penetration-testing-lab" target="_blank" rel="noreferrer">
+            <div class="project-icon">
+               <i class="fa-solid fa-user-secret"></i>
+            </div>
+            <div class="card-bottom">
+              <span class="project-index">02</span>
+              <h3>Penetration Testing Lab</h3>
+              <p>Hands-on Kali and Metasploitable environment for enumeration, exploitation, and documentation.</p>
+              <span class="project-link">View project ↗</span>
+            </div>
+          </a>
+
+          <a class="project-card"
+   href="https://github.com/FelipeG72/soc-log-analyzer"
+   target="_blank"
+   rel="noreferrer">
+
+    <div class="project-icon">
+        <i class="fa-solid fa-shield-halved"></i>
+    </div>
+
+    <div class="card-bottom">
+        <span class="project-index">03</span>
+        <h3>SOC Log Analyzer</h3>
+        <p>Detection-focused log parsing for Windows events, suspicious authentication activity, and alerts.</p>
+        <span class="project-link">Project details ↗</span>
+    </div>
+
+</a>
+          <a class="project-card"
+   href="https://github.com/FelipeG72/file-integrity-monitor"
+   target="_blank"
+   rel="noreferrer">
+
+    <div class="project-icon">
+        <i class="fa-solid fa-file-shield"></i>
+    </div>
+
+    <div class="card-bottom">
+        <span class="project-index">04</span>
+        <h3>File Integrity Monitor</h3>
+        <p>Baseline-driven file monitoring that records changes and generates alerts for modified files.</p>
+        <span class="project-link">Project details ↗</span>
+    </div>
+
+</a>
+
+        <a class="pill" href="#contact">Get in touch</a>
+      </div>
+    </section>
+
+<section class="about" id="about">
+    <div class="section-wrap">
+
+        <p class="eyebrow">My Background</p>
+        <h2>Experience</h2>
+
+        <div class="experience-list">
+
+            <!-- ServiceNow Internship -->
+            <div class="experience-item">
+                <div class="experience-meta">
+                    <span>Aug 2026 — Dec 2026</span>
+                    <span>San Antonio, TX</span>
+                </div>
+
+                <div class="experience-content">
+                    <h3>ServiceNow Intern</h3>
+                    <p class="experience-company">
+                        The University of Texas at San Antonio
+                    </p>
+
+                    <p>
+                        Support the development, configuration, and testing of
+                        solutions within the ServiceNow platform to improve
+                        university workflows and business processes.
+                    </p>
+
+                    <p>
+                        Hands-on experience with ITSM, workflow automation,
+                        incident management, and enterprise technology operations.
+                    </p>
+                </div>
+            </div>
+
+
+<div class="experience-item fitness-experience">
+
+    <div class="experience-content">
+        <h3>Fitness Assistant</h3>
+
+        <p class="experience-company">
+            UTSA Campus Recreation
+        </p>
+
+        <p>
+            Support daily recreation facility operations while assisting
+            students and staff in a fast-paced campus environment.
+        </p>
+
+        <div class="experience-date-bottom">
+            <span>Aug 2026 — Present</span>
+            <span>San Antonio, TX</span>
+        </div>
+    </div>
+
+</div>
+    
+<section class="about" id="about">
+    <div class="section-wrap about-grid">
+
+        <div class="about-column">
+            <p class="eyebrow">Education</p>
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <h3>University of Texas at San Antonio</h3>
+                <p>Bachelor's Degree in Cybersecurity</p>
+                <p>Expected Graduation: 2029</p>
+                <p>San Antonio, Texas</p>
+            </div>
+        </div>
+
+        <div class="about-column">
+            <p class="eyebrow">Technical Skills</p>
+            <h2>Skills</h2>
+
+            <div class="skills-list">
+                <span>Python</span>
+                <span>Windows Security</span>
+                <span>Linux</span>
+                <span>SIEM & Log Analysis</span>
+                <span>Network Security</span>
+                <span>Incident Detection</span>
+                <span>Git & GitHub</span>
+                <span>VirtualBox</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-pattern" aria-hidden="true"></div>
+    <div class="footer-content">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Contact Me</h2>
+        <p><a href="mailto:fcampos43@yahoo.com">fcampos43@yahoo.com</a></p>
+        <p><a>Phone Number: 210-912-8201</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/FelipeG72" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
