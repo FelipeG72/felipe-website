@@ -159,10 +159,10 @@ button { font: inherit; }
 .hero-slide { position: absolute; inset: 0; opacity: 0; transform: scale(1.03); transition: opacity .55s ease, transform .7s ease; background-size: cover; background-position: center; }
 .hero-slide.is-active { opacity: 1; transform: scale(1); }
 .slide-one {
-    background-image: url("football.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-image: url("FOOTBALL.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .slide-two {
   background-image: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.58)), url("utsa.webp");
